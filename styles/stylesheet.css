@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; /*gets rid of the underline under the text*/
+}
+
+Body {
+  background-color: #eee;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+ul {
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+
+}
+
+ul li a {
+  display: block;
+  text-decoration: none; /*gets rid of the underline under the text*/
+  font-size: 16px;
+  font-family: Rajdhani;
+  color: #1e1e1e;
+  padding: 0 20px;
+
+
+}
+/*project page*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordian {
+  background-color: lightsteelblue;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-family: Palatino;
+  font-size: 16px;
+  font-weight:bolder;
+
+}

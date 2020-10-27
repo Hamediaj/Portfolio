@@ -102,7 +102,7 @@ p {
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordian {
-  background-color: lightsteelblue;
+  background-color: #F5FFFA;
   color: black;
   cursor: pointer;
   padding: 20px;
@@ -111,8 +111,8 @@ p {
   border: none;
   outline: none;
   transition: 0.4s;
-  font-family: Palatino;
-  font-size: 16px;
+  font-family: Rajdhani;
+  font-size: 18px;
   font-weight:bolder;
 
 }

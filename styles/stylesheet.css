@@ -124,3 +124,7 @@ h3 {
   padding-top: 1rem;
   color: #4a646c;
 }
+
+img {
+  max-width: 100%;
+}

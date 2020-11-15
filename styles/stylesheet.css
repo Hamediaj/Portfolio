@@ -143,11 +143,13 @@ div a:hover {
 
 /* NOTE: contact page begins here */
 
+.main-contact {
+    padding-top: 4rem;
+}
 
 h2{
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
   padding-bottom: 1rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;

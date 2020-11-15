@@ -5,7 +5,6 @@
   <title>Hamedia Jemal</title>
   <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" >
   <script src="https://kit.fontawesome.com/ea5566b4d4.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="styles/normalize.css" >
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
@@ -20,6 +19,31 @@
 </header>
 
   <body>
+<main class="main-contact"
+      <div class="contact-title">
+        <h2>Say Hello!</h2>
+      </div>
 
+      <form class="contact-form" action="contact.html" method="post">
+        <ul>
+          <li><label for="name">Your Name:</label>
+          <input type="text" id="name" name="user_name"></li>
+
+          <li>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="email" name="user_email">
+          </li>
+
+          <li>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+
+          <li class="button">
+            <button type="submit">Submit your message</button>
+          </li>
+        </ul>
+      </form>
+    </main>
   </body>
 </html>

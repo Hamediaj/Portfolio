@@ -36,13 +36,14 @@ nav {
 }
 
 .intro {
-  margin-left: 16rem;
+  display: flex;
+  justify-content: center;
   padding-top: 8rem;
   padding-bottom: 1rem;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #ffa07a;
+  color: #527a7a;
 }
 
 .about {
@@ -56,14 +57,38 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
-  color: #4a646c;
+  color: darkgrey;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }
 
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+}
+
+.footerlist {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.fab {
+  font-size: 1.2rem;
+}
+
+a .fa-linkedin {
+  color: #0e76a8;
+}
+
+a .fa-github-square {
+  color: black;
+}
 /* NOTE: project page starts here */
 
 .project-main {
@@ -80,10 +105,13 @@ section {
   flex-wrap: wrap;
 }
 
+figure {
+  max-width: 50%
+}
+
 .right-content {
-  padding-left: 5rem;
   padding-top: 4rem;
-  width:  50%;
+  width:  40%;
 }
 
 h3 {
@@ -94,7 +122,8 @@ h3 {
 }
 
 .right-content p{
-  color: #4a646c;
+  /* color: #4a646c; */
+  color: darkgrey;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -112,13 +141,11 @@ div a {
 
 .navlist a  {
   transition-property: color;
-  transition-property: font-size;
   transition-duration: 300ms;
 }
 
 .navlist a:hover {
   color: #994d00;
-  font-size: 30px;
 }
 
 div a {

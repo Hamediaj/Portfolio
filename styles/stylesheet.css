@@ -18,6 +18,7 @@ nav {
     color: #ffa07a;;
     margin-left: 1rem;
 
+
 }
 
 .navlist a {
@@ -141,11 +142,12 @@ div a {
 
 .navlist a  {
   transition-property: color;
-  transition-duration: 300ms;
 }
 
 .navlist a:hover {
-  color: #994d00;
+  color: #E6DA9D;
+  text-decoration: underline overline;
+  text-decoration-color: darkgrey;
 }
 
 div a {

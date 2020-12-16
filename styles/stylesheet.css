@@ -230,8 +230,8 @@ input[type='text'], [type='email'], [type='tel'], textarea {
 	font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
-	margin: 0 0 1rem 0;
-	padding: 0 0 .5rem 0;
+	margin-bottom: 1rem;
+	padding-bottom: .5rem;
   text-transform: uppercase;
 	width: 100%;
 	box-sizing: border-box;
@@ -239,7 +239,7 @@ input[type='text'], [type='email'], [type='tel'], textarea {
 
 input[type='text']:focus, [type='email']:focus, [type='tel']:focus, textarea:focus {
 	outline: none;
-	padding: 0 0 0.5rem 0;
+	padding-bottom: 0.5rem;
 }
 
 .message .fname .lname .subject {

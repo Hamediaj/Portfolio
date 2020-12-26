@@ -6,6 +6,26 @@
   text-decoration: none; /*gets rid of the underline under the text*/
 }
 
+.skip-to-content-link {
+  left: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+.skip-to-content-link {
+  background: #e77e23;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
 nav {
     padding: 1rem 2rem;
 }
@@ -26,7 +46,7 @@ nav {
 }
 
 /* NOTE: start of main page */
-.main-home {
+#main-home {
   display: flex;
 }
 
@@ -58,7 +78,7 @@ nav {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
-  color: darkgrey;
+  color: black;
 }
 
 footer {
@@ -92,7 +112,7 @@ a .fa-github-square {
 }
 /* NOTE: project page starts here */
 
-.project-main {
+#project-main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +144,7 @@ h3 {
 
 .right-content p{
   /* color: #4a646c; */
-  color: darkgrey;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
@@ -135,7 +155,7 @@ div a {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight:500;
-  color: #E6DA9D;
+  color: #ffa07a;
 }
 
 /* NOTE: transitions */
@@ -195,7 +215,7 @@ textarea {
   overflow: auto;
 }
 
-.contactform {
+#contactform {
   border: solid 3px #474544;
   max-width: 570px;
   margin: 60px auto;
@@ -207,7 +227,7 @@ form {
   margin: 50px 0;
 }
 
-.contactform h2 {
+#contactform h2 {
   color: #85adad;
   font-size: 25px;
   font-weight: 700;
@@ -225,7 +245,7 @@ form {
 input[type='text'], [type='email'], [type='tel'], textarea {
   background: none;
   border: none;
-  color: #E6DA9D;
+  color: black;
   border-bottom: solid 2px black;
   font-size: 14px;
   font-weight: 400;
